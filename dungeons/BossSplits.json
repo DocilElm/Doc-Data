@@ -107,13 +107,13 @@
             "type": 4
         },
         {
-            "title": "&dTerracottas",
+            "title": "&dTerracottas&f: &a${1}",
             "criteria": "^\\[BOSS\\] Sadan\\: ENOUGH\\!$",
             "chat": "^",
             "type": 3
         },
         {
-            "title": "&bGiants",
+            "title": "&bGiants&f: &a${1}",
             "criteria": "^\\[BOSS\\] Sadan\\: You did it\\. I understand now\\, you have earned my respect\\.$",
             "chat": "^",
             "type": 3
@@ -133,25 +133,25 @@
             "type": 4
         },
         {
-            "title": "&aMaxor",
+            "title": "&aMaxor&f: &a${1}",
             "criteria": "^\\[BOSS\\] Storm\\: Pathetic Maxor\\, just like expected\\.$",
             "chat": "^",
             "type": 3
         },
         {
-            "title": "&bStorm",
+            "title": "&bStorm&f: &a${1}",
             "criteria": "^\\[BOSS\\] Goldor\\: Who dares trespass into my domain\\?$",
             "chat": "^",
             "type": 3
         },
         {
-            "title": "&eTerminals",
+            "title": "&eTerminals&f: &a${1}",
             "criteria": "^The Core entrance is opening\\!$",
             "chat": "^",
             "type": 3
         },
         {
-            "title": "&7Goldor",
+            "title": "&7Goldor&f: &a${1}",
             "criteria": "^\\[BOSS\\] Necron\\: You went further than any human before\\, congratulations\\.$",
             "chat": "^",
             "type": 3
@@ -171,31 +171,31 @@
             "type": 4
         },
         {
-            "title": "&aMaxor",
+            "title": "&aMaxor&f: &a${1}",
             "criteria": "^\\[BOSS\\] Storm\\: Pathetic Maxor\\, just like expected\\.$",
             "chat": "^",
             "type": 3
         },
         {
-            "title": "&bStorm",
+            "title": "&bStorm&f: &a${1}",
             "criteria": "^\\[BOSS\\] Goldor\\: Who dares trespass into my domain\\?$",
             "chat": "^",
             "type": 3
         },
         {
-            "title": "&eTerminals",
+            "title": "&eTerminals&f: &a${1}",
             "criteria": "^The Core entrance is opening\\!$",
             "chat": "^",
             "type": 3
         },
         {
-            "title": "&7Goldor",
+            "title": "&7Goldor&f: &a${1}",
             "criteria": "^\\[BOSS\\] Necron\\: You went further than any human before\\, congratulations\\.$",
             "chat": "^",
             "type": 3
         },
         {
-            "title": "&cNecron",
+            "title": "&cNecron&f: &a${1}",
             "criteria": "^\\[BOSS\\] Necron: All this\\, for nothing\\.\\.\\.$",
             "chat": "^",
             "type": 3
