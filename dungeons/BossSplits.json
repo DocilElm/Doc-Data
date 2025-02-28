@@ -1,49 +1,210 @@
 {
-    "Bonzo": {
-        "[BOSS] Bonzo: Oh I'm dead!": "&cFirst Kill",
-        "Cleared": "&aBonzo Kill"
-    },
-
-    "Scarf": {
-        "[BOSS] Scarf: Those toys are not strong enough I see.": "&7Undeads Kill",
-        "Cleared": "&aScarf Kill"
-    },
-
-    "The Professor": {
-        "[BOSS] The Professor: Oh? You found my Guardians' one weakness?": "&bGuardians",
-        "[BOSS] The Professor: I see. You have forced me to use my ultimate technique.": "&bProfessor",
-        "[BOSS] The Professor: What?! My Guardian power is unbeatable!": "&aBoss Kill",
-        "Cleared": "&aCleared"
-    },
-
-    "Thorn": {
-        "Cleared": "&aThorn"
-    },
-
-    "Livid": {
-        "Cleared": "&aLivid"
-    },
-
-    "Sadan": {
-        "[BOSS] Sadan: ENOUGH!": "&dTerracottas",
-        "[BOSS] Sadan: You did it. I understand now, you have earned my respect.": "&bGiants",
-        "Cleared": "&aSadan Kill"
-    },
-
-    "F7": {
-        "[BOSS] Storm: Pathetic Maxor, just like expected.": "&aMaxor",
-        "[BOSS] Goldor: Who dares trespass into my domain?": "&bStorm",
-        "Terms": "&eTerminals",
-        "[BOSS] Necron: You went further than any human before, congratulations.": "&7Goldor",
-        "Cleared": "&4Necron"
-    },
-
-    "M7": {
-        "[BOSS] Storm: Pathetic Maxor, just like expected.": "&aMaxor",
-        "[BOSS] Goldor: Who dares trespass into my domain?": "&bStorm",
-        "Terms": "&eTerminals",
-        "[BOSS] Necron: You went further than any human before, congratulations.": "&7Goldor",
-        "[BOSS] Necron: All this, for nothing...": "&cNecron",
-        "Cleared": "&4Wither King"
-    }
+    "F1": [
+        {
+            "title": null,
+            "criteria": "[BOSS] Bonzo: Gratz for making it this far, but I'm basically unbeatable.",
+            "chat": null,
+            "type": 4
+        },
+        {
+            "title": "&cFirst Phase&f: &a${1}",
+            "criteria": "^\\[BOSS\\] Bonzo: Oh I\\'m dead\\!$",
+            "chat": "^",
+            "type": 3
+        },
+        {
+            "title": "&cBonzo&f: &a${1}",
+            "criteria": "^ +> EXTRA STATS <$",
+            "chat": "^",
+            "type": 3
+        }
+    ],
+    "F2": [
+        {
+            "title": null,
+            "criteria": "[BOSS] Scarf: This is where the journey ends for you, Adventurers.",
+            "chat": null,
+            "type": 4
+        },
+        {
+            "title": "&7Undeads&f: &a${1}",
+            "criteria": "^\\[BOSS\\] Scarf\\: Those toys are not strong enough I see\\.$",
+            "chat": "^",
+            "type": 3
+        },
+        {
+            "title": "&aScarf&f: &a${1}",
+            "criteria": "^ +> EXTRA STATS <$",
+            "chat": "^",
+            "type": 3
+        }
+    ],
+    "F3": [
+        {
+            "title": null,
+            "criteria": "[BOSS] The Professor: I was burdened with terrible news recently...",
+            "chat": null,
+            "type": 4
+        },
+        {
+            "title": "&bGuardians&f: &a${1}",
+            "criteria": "^\\[BOSS\\] The Professor\\: Oh\\? You found my Guardians\\' one weakness\\?$",
+            "chat": "^",
+            "type": 3
+        },
+        {
+            "title": "&bPhase One&f: &a${1}",
+            "criteria": "^\\[BOSS\\] The Professor\\: I see\\. You have forced me to use my ultimate technique\\.$",
+            "chat": "^",
+            "type": 3
+        },
+        {
+            "title": "&bPhase Two&f: &a${1}",
+            "criteria": "^\\[BOSS\\] The Professor\\: What\\?\\! My Guardian power is unbeatable\\!$",
+            "chat": "^",
+            "type": 3
+        },
+        {
+            "title": "&aThe Professor&f: &a${1}",
+            "criteria": "^ +> EXTRA STATS <$",
+            "chat": "^",
+            "type": 3
+        }
+    ],
+    "F4": [
+        {
+            "title": null,
+            "criteria": "[BOSS] Thorn: Welcome Adventurers! I am Thorn, the Spirit! And host of the Vegan Trials!",
+            "chat": null,
+            "type": 4
+        },
+        {
+            "title": "&aThorn&f: &a${1}",
+            "criteria": "^ +> EXTRA STATS <$",
+            "chat": "^",
+            "type": 3
+        }
+    ],
+    "F5": [
+        {
+            "title": null,
+            "criteria": "[BOSS] Livid: Welcome, you've arrived right on time. I am Livid, the Master of Shadows.",
+            "chat": null,
+            "type": 4
+        },
+        {
+            "title": "&aLivid&f: &a${1}",
+            "criteria": "^ +> EXTRA STATS <$",
+            "chat": "^",
+            "type": 3
+        }
+    ],
+    "F6": [
+        {
+            "title": null,
+            "criteria": "[BOSS] Sadan: So you made it all the way here... Now you wish to defy me? Sadan?!",
+            "chat": null,
+            "type": 4
+        },
+        {
+            "title": "&dTerracottas",
+            "criteria": "^\\[BOSS\\] Sadan\\: ENOUGH\\!$",
+            "chat": "^",
+            "type": 3
+        },
+        {
+            "title": "&bGiants",
+            "criteria": "^\\[BOSS\\] Sadan\\: You did it\\. I understand now\\, you have earned my respect\\.$",
+            "chat": "^",
+            "type": 3
+        },
+        {
+            "title": "&aSadan&f: &a${1}",
+            "criteria": "^ +> EXTRA STATS <$",
+            "chat": "^",
+            "type": 3
+        }
+    ],
+    "F7": [
+        {
+            "title": null,
+            "criteria": "[BOSS] Maxor: WELL! WELL! WELL! LOOK WHO'S HERE!",
+            "chat": null,
+            "type": 4
+        },
+        {
+            "title": "&aMaxor",
+            "criteria": "^\\[BOSS\\] Storm\\: Pathetic Maxor\\, just like expected\\.$",
+            "chat": "^",
+            "type": 3
+        },
+        {
+            "title": "&bStorm",
+            "criteria": "^\\[BOSS\\] Goldor\\: Who dares trespass into my domain\\?$",
+            "chat": "^",
+            "type": 3
+        },
+        {
+            "title": "&eTerminals",
+            "criteria": "^The Core entrance is opening\\!$",
+            "chat": "^",
+            "type": 3
+        },
+        {
+            "title": "&7Goldor",
+            "criteria": "^\\[BOSS\\] Necron\\: You went further than any human before\\, congratulations\\.$",
+            "chat": "^",
+            "type": 3
+        },
+        {
+            "title": "&4Necron&f: &a${1}",
+            "criteria": "^ +> EXTRA STATS <$",
+            "chat": "^",
+            "type": 3
+        }
+    ],
+    "M7": [
+        {
+            "title": null,
+            "criteria": "[BOSS] Maxor: WELL! WELL! WELL! LOOK WHO'S HERE!",
+            "chat": null,
+            "type": 4
+        },
+        {
+            "title": "&aMaxor",
+            "criteria": "^\\[BOSS\\] Storm\\: Pathetic Maxor\\, just like expected\\.$",
+            "chat": "^",
+            "type": 3
+        },
+        {
+            "title": "&bStorm",
+            "criteria": "^\\[BOSS\\] Goldor\\: Who dares trespass into my domain\\?$",
+            "chat": "^",
+            "type": 3
+        },
+        {
+            "title": "&eTerminals",
+            "criteria": "^The Core entrance is opening\\!$",
+            "chat": "^",
+            "type": 3
+        },
+        {
+            "title": "&7Goldor",
+            "criteria": "^\\[BOSS\\] Necron\\: You went further than any human before\\, congratulations\\.$",
+            "chat": "^",
+            "type": 3
+        },
+        {
+            "title": "&cNecron",
+            "criteria": "^\\[BOSS\\] Necron: All this\\, for nothing\\.\\.\\.$",
+            "chat": "^",
+            "type": 3
+        },
+        {
+            "title": "&4Wither King&f: &a${1}",
+            "criteria": "^ +> EXTRA STATS <$",
+            "chat": "^",
+            "type": 3
+        }
+    ]
 }
