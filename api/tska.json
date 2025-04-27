@@ -1,0 +1,21 @@
+{
+    "version": "0.0.1",
+    "changelog": [],
+    "regex": {
+        "Dungeons": {
+            "Floor": "^  The Catacombs \\((\\w\\d)\\)$",
+            "PlayerInfo": "^(?:[^\\x00-\\x7F])?(?:\\[\\d+\\] )?(?:\\[\\w+\\] )?(\\w{1,16})(?: [^\\x00-\\x7F]+)? \\((\\w+ ([IVXLCDM]+)|EMPTY|DEAD)\\)$",
+            "ScretsFound": "^ Secrets Found: ([\\d,.]+)$",
+            "ScretsFoundPer": "^ Secrets Found: ([\\d,.]+)\\%$",
+            "Milestone": "^ Your Milestone: .(.)$",
+            "CompletedRooms": "^ Completed Rooms: ([\\d]+)$",
+            "TeamDeaths": "^Team Deaths: ([\\d]+)$",
+            "PuzzleCount": "^Puzzles: \\(([\\d]+)\\)$",
+            "Crypts": "^ Crypts: ([\\d]+)$",
+            "RoomSecretsFound": "([\\d]+)\\/([\\d]+) Secrets",
+            "PuzzleState": "^ ([\\w ]+): \\[([✦|✔|✖])\\] ?\\(?(\\w{1,16})?\\)?$",
+            "OpenedRooms": "^ Opened Rooms: (\\d+)$",
+            "ClearedRooms": "^ Completed Rooms: (\\d+)$"
+        }
+    }
+}
