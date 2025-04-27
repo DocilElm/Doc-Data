@@ -1,10 +1,10 @@
 {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "changelog": [],
     "regex": {
         "Dungeons": {
             "Floor": "^  The Catacombs \\((\\w\\d)\\)$",
-            "PlayerInfo": "^(?:[^\\x00-\\x7F])?(?:\\[\\d+\\] )?(?:\\[\\w+\\] )?(\\w{1,16})(?: [^\\x00-\\x7F]+)? \\((\\w+ ([IVXLCDM]+)|EMPTY|DEAD)\\)$",
+            "PlayerInfo": "^(?:[^\\x00-\\x7F])?(?:\\[\\d+\\] )?(?:\\[\\w+\\] )?(\\w{1,16})(?: [^\\x00-\\x7F]+)? \\((\\w+) ?(([IVXLCDM]+))?\\)$",
             "ScretsFound": "^ Secrets Found: ([\\d,.]+)$",
             "ScretsFoundPer": "^ Secrets Found: ([\\d,.]+)\\%$",
             "Milestone": "^ Your Milestone: .(.)$",
