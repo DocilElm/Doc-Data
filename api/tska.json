@@ -1,6 +1,6 @@
 {
-    "version": "0.0.2",
-    "changelog": [],
+    "version": "0.0.3",
+    "changelog": ["Add dungeons scoreboard cleared percent regex"],
     "regex": {
         "Dungeons": {
             "Floor": "^  The Catacombs \\((\\w\\d)\\)$",
@@ -15,7 +15,8 @@
             "RoomSecretsFound": "([\\d]+)\\/([\\d]+) Secrets",
             "PuzzleState": "^ ([\\w ]+): \\[([✦|✔|✖])\\] ?\\(?(\\w{1,16})?\\)?$",
             "OpenedRooms": "^ Opened Rooms: (\\d+)$",
-            "ClearedRooms": "^ Completed Rooms: (\\d+)$"
+            "ClearedRooms": "^ Completed Rooms: (\\d+)$",
+            "ClearedPercent": "^Cleared: (\\d+)% \\(\\d+\\)$"
         }
     }
 }
