@@ -1,6 +1,6 @@
 {
-    "version": "0.0.3",
-    "changelog": ["Add dungeons scoreboard cleared percent regex"],
+    "version": "0.0.4",
+    "changelog": ["Add DungeonTime regex"],
     "regex": {
         "Dungeons": {
             "Floor": "^  The Catacombs \\((\\w\\d)\\)$",
