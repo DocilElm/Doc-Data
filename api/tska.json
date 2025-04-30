@@ -16,7 +16,8 @@
             "PuzzleState": "^ ([\\w ]+): \\[([✦|✔|✖])\\] ?\\(?(\\w{1,16})?\\)?$",
             "OpenedRooms": "^ Opened Rooms: (\\d+)$",
             "ClearedRooms": "^ Completed Rooms: (\\d+)$",
-            "ClearedPercent": "^Cleared: (\\d+)% \\(\\d+\\)$"
+            "ClearedPercent": "^Cleared: (\\d+)% \\(\\d+\\)$",
+            "DungeonTime": "^ Time: (?:(\\d+)h)? ?(?:(\\d+)m)? ?(?:(\\d+)s)$"
         }
     }
 }
